@@ -2,7 +2,7 @@
 
 namespace HomeWork11._04
 {
-    class Client 
+     class Client 
     {
         public string Name;
         public string LastName;
@@ -25,6 +25,7 @@ namespace HomeWork11._04
     {
         static void Main(string[] args)
         {
+
             Client[] clients = new Client[10];
             for (int i = 0; i < clients.Length;i++)
             {
